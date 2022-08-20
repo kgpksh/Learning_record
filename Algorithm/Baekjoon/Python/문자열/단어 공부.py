@@ -3,6 +3,7 @@ import sys
 
 s = sys.stdin.readline().upper()
 cc = sorted(Counter(s).items(), key=lambda x: -x[1])
+print(cc)
 l = len(cc)
 if l > 2:
     if cc[0][1] == cc[1][1]:
