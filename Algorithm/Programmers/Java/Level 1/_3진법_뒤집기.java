@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Solution {
+class _3진법_뒤집기 {
     public int solution(int n) {
         int answer = 0;
         List<Integer> number = new ArrayList<Integer>();

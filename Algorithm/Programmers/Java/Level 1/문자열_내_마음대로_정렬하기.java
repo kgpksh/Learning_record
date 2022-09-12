@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Solution {
+class 문자열_내_마음대로_정렬하기 {
     public String[] solution(String[] strings, int n) {
         String[] tmp = strings;
         for (int i = 0; i < tmp.length; i++) {

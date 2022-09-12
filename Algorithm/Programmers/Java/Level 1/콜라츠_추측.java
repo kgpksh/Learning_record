@@ -1,4 +1,4 @@
-class Solution {
+class 콜라츠_추측 {
     public int solution(int num) {
         int cnt = 0;
         if (num == 1) {

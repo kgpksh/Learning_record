@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 같은_숫자는_싫어 {
     public Object[] solution(int[] arr) {
 
         int previous = -1;

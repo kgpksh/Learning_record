@@ -1,4 +1,4 @@
-class Solution {
+class 이상한_문자_만들기 {
     public String solution(String s) {
         char[] ch = s.toCharArray();
         int idx = 0;

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 나누어_떨어지는_숫자_배열 {
     public int[] solution(int[] arr, int divisor) {
         int length = 0;
 

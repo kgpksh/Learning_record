@@ -1,4 +1,4 @@
-class Solution {
+class 최소직사각형 {
     public int solution(int[][] sizes) {
         int[] comparer = { 0, 0 };
         for (int[] arr : sizes) {

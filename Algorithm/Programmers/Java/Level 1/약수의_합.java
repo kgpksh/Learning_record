@@ -1,4 +1,4 @@
-class Solution {
+class 약수의_합 {
     public int solution(int n) {
         if (n == 0) {
             return 0;

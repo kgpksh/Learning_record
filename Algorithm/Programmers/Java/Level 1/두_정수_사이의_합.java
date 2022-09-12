@@ -1,4 +1,4 @@
-class Solution {
+class 두_정수_사이의_합 {
     public long solution(int a, int b) {
         int m = Math.min(a, b);
         int n = Math.max(a, b);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class K번째수 {
     public static int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
         for (int i = 0; i < commands.length; i++) {

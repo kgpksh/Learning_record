@@ -1,4 +1,4 @@
-class Solution {
+class 행렬의_덧셈 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int len = arr1.length;
         int len2 = arr1[0].length;

@@ -1,4 +1,4 @@
-class Solution {
+class 시저_암호 {
     public String solution(String s, int n) {
 
         char[] ch = s.toCharArray();

@@ -1,4 +1,4 @@
-class Solution {
+class 최대공약수와_최소공배수 {
     int get_gcd(int x, int y) {
         for (int i = Math.min(x, y); i > 0; i--) {
             if (x % i == 0 && y % i == 0) {

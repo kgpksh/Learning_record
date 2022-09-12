@@ -1,6 +1,6 @@
 // 자바의 비트연산은 10진수 상태에 바로 적용가능하다
 
-class Solution {
+class _1차_비밀지도 {
     public String[] solution(int n, int[] arr1, int[] arr2) {
         String[] answer = new String[n];
         for (int i = 0; i < n; i++) {

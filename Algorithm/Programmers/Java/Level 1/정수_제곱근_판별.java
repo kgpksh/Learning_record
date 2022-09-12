@@ -1,4 +1,4 @@
-class Solution {
+class 정수_제곱근_판별 {
     public long solution(long n) {
         double s = Math.sqrt(n);
         if (s % 1 == 0) {

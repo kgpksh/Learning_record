@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 정수_내림차순으로_배치하기 {
     public long solution(long n) {
         String s = n + "";
         String[] str = s.split("");

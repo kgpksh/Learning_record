@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 제일_작은_수_제거하기 {
     public int[] solution(int[] arr) {
         Integer m = Arrays.stream(arr).min().getAsInt();
         ArrayList<Integer> list = new ArrayList<>();

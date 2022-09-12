@@ -1,4 +1,4 @@
-class Solution {
+class 하샤드_수 {
     public boolean solution(int x) {
         String[] s = Integer.toString(x).split("");
         int sum = 0;
