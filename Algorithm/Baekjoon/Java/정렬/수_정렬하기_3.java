@@ -1,5 +1,3 @@
-package Algorithm.Baekjoon.Java.정렬;
-
 import java.io.*;
 
 public class 수_정렬하기_3 {

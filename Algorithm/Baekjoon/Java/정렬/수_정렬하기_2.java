@@ -1,5 +1,3 @@
-package Algorithm.Baekjoon.Java.정렬;
-
 import java.io.*;
 import java.util.Arrays;
 
