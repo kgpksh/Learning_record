@@ -1,1 +1,1 @@
-print(ord('각'))
+print(chr(int(input())+ord('가')-1))
