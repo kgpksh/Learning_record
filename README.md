@@ -1,4 +1,4 @@
-# Today I Learned
+# My learning record
 #### ● 알고리즘(자바,파이썬)
 #### ● 자바 복습
 #### ● 머신러닝 독학 및 바이낸스 투자 토이프로젝트
