@@ -34,3 +34,31 @@ class any_class2{
         value=x;
     }
 }
+
+class any_class3{
+    String color;
+    String gearType;
+    int door;
+    // 생성자 this()는 생성자에서 다른 생성자를 호출할 때 사용
+    // 다른 생성자 호출시 첫 줄에서만 사용 가능
+
+    // 밑의3개 생성자는 모두 iv초기화, 오버로딩과 비슷한 개념
+    // 코드의 중복을 제거하기 위해 서로 호출하는 경우가 많음
+
+    // 디폴드값
+    any_class3(){
+        // 세번째 생성자 호출로 코드 중복 줄임
+        this("White","auto",4);
+    }
+    any_class3(String color){
+        this(color,"auto",4);
+    }
+    // 참조변수 this는 생성자 this와 전혀 별개. 인스턴스 자신을 가리키는 참조변수.
+    // 인스턴스 메소드(생성자 포함)에서 사용가능
+    // 지역변수와 인스턴스 변수를 구별할 때 사용
+    any_class3(String color, String gearType, int door){
+        this.color=color;
+        this.gearType=gearType;
+        this.door=door;
+    }
+}
