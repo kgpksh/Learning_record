@@ -6,6 +6,12 @@ package Java_study.객체지향_보충;
 //public, abstract,final은 생략가능
 //추상메서드와 인터페이스의 가장 큰 차이점은 iv를 가질 수 있느냐이다
 
+//인터페이스의 장점
+//선언과 구현 분리가능 일도 줄어들고 에러도 줄어듬
+//개발시간 단축가능
+//변경에 유리한 유연한 설계가능
+//표준화 가능
+//서로 관계없는 클래스들의 관계를 맺어주는것 가능
 public class inTerface {
     public static void main(String[] args) {
         test t=new test();
