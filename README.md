@@ -4,6 +4,7 @@
 [Anki-Blank](https://github.com/kgpksh/Android-Anki-Blank)  
 [구글플레이스토어](https://play.google.com/store/apps/details?id=com.first.Anki_blank)
 #### ● 알고리즘(자바,파이썬)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tkdgns543)](https://solved.ac/tkdgns543/)
 #### ● 자바 복습
 자바의 정석으로 입문하여 안드로이드 어플을 구글 플레이스토어에 출시하였다. 그러나 기본이 부족하다고 느껴 다시 공부한 것을 기록해두는 결과물
 #### ● 머신러닝 독학 및 바이낸스 투자 토이프로젝트
