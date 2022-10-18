@@ -1,8 +1,8 @@
 # My learning record
 #### ● Android Anki-Blank 프로젝트
 개발에 입문하게 된 첫 프로젝트. 용량과 내용이 많아 링크로 대신한다.  
-### [Anki-Blank](https://github.com/kgpksh/Android-Anki-Blank)  
-### [구글플레이스토어](https://play.google.com/store/apps/details?id=com.first.Anki_blank)
+##### [Anki-Blank](https://github.com/kgpksh/Android-Anki-Blank)  
+##### [구글플레이스토어](https://play.google.com/store/apps/details?id=com.first.Anki_blank)
 #### ● 알고리즘(자바,파이썬)
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tkdgns543)](https://solved.ac/tkdgns543/)
 #### ● 자바 복습
