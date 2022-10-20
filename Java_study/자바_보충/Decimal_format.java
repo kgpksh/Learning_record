@@ -30,6 +30,7 @@ public class Decimal_format {
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
+//        열정 있는 사람들이 올 것이란 기대도 있고 개발 관련 잡담을 할 수 있을 것 같은 환경도 중요하다.
 
     }
 }
