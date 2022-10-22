@@ -48,6 +48,8 @@ public class coLLections {
 //        ListIterator는 next 뿐만아니라 previous도 있다
 //        Iterator는 일회용이기 때문에 처음부터 다시 읽으려면 새로 만들어야함
 
+
+//        HashSet에 뭔가를 넣기 전에 equals와 hashcode를 오버라이딩 해야 바르게 동작.
         Set set=new HashSet();
         set.addAll(list); //합집합
         set.containsAll(list); //부분집합
