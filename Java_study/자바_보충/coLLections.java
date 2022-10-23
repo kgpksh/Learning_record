@@ -87,5 +87,24 @@ public class coLLections {
 //        List list=new ArrayList(Arrays.asList(1,2,3,4,5));
 //        이런 식으로
 
+
+//        동기화된 자료구조를 위한 Collections의 메서드들
+        List synclist=Collections.synchronizedList(new ArrayList<>());
+
+//        읽기전용 변경불가
+        List unmodilist=Collections.unmodifiableList(new ArrayList<>());
+
+
+//        객체 1개만 저장할 수 있는 컬렉션
+//        List singleton=Collections.singletonList(Object o);
+
+
+//        한 종류의 객체만 저장하는 컬렉션. ex) String 만 저장가능
+        List arrlist=new ArrayList();
+        List  checked=Collections.checkedList(arrlist,String.class);
+
+
+//        2로 5만큼 길이의 배열을 채움. 단 결과는 변경불가.
+        List newList=Collections.nCopies(5,2);
     }
 }
