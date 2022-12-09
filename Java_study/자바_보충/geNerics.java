@@ -37,8 +37,6 @@ public class geNerics {
         Product product=tvlist.get(0);
         Tv tv=(Tv)tvlist.get(1);
 
-        List<>
-
     }
 }
 

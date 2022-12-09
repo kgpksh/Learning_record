@@ -1,3 +1,8 @@
 Algorithm/test.py
 Algorithm/thread.py
 brownie/smartcontract-lottery/.env
+out/
+.idea/
+TIL.iml
+Algorithm/Baekjoon/Baekjoon.iml
+Algorithm/Programmers/Programmers.iml
