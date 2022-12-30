@@ -40,11 +40,55 @@ public class geNerics {
     }
 }
 
+class Box<T> {
+
+//    와일드 카드의 상한 제한, T와 그 자손들만 가능
+//    List<? extends T> list = new ArrayList();
+
+//    와일드 카드의 하한제한, T와 그 조상들만 가능
+//    List<? super T> list2 = new ArrayList();
+
+//    제한 없음, ? extends Object 와 동일
+//    List<?> list3 = new ArrayList();
+
+//    메서드의 매개변수에도 사용 가능 Fruit가 들어있는 FruitBox만 넣을 수 있음
+    void method(FruitBox<? extends Fruit> box) {}
+
+//    지네릭 메서드. 클래스의 타입 변수 T 와 메서드의 타입 변수 T는 별개
+    <T> void sort(List<T> list) {}
+//    static 멤버에 타입 변수 사용 불가
+//    static T item;
+
+//    타입 변수로 배열 선언은 가능
+    T[] itemArr;
+//    배열(뿐만 아니라 객체) 생성할 때 타입 변수 사용 불가 쉽게 말해 new 다음에는 T 오는것이 불가능
+//    T[] itemArr2 = new T[4];
+    ArrayList<T> list = new ArrayList<T>();
+    void add(T item) {
+        list.add(item);
+    }
+
+    T get(int i) {
+        return list.get(i);
+    }
+
+    int size() {
+        return list.size();
+    }
+
+    public String toString() {
+        return list.toString();
+    }
+}
+
+interface Eatable{}
+
+
+// Fruit 클래스와 Eatable 인터페이스를 상속한 것만 받는다는 의미
+class FruitBox<T extends Fruit & Eatable> extends Box<T> {}
+
 class Product{}
 class Tv extends Product{}
 
 
 class Fruit{}
-
-//Fruit의 자손만 받을 수 있음
-class FruitBox<T extends Fruit>{}
