@@ -5,8 +5,7 @@ public class LambDa {
     int max(int a, int b) {
         return a > b ? a : b;
     }
-
-//    메서드의 이름과 반환 타입을 제거하고  ->를 { 앞에 붙임
+//            메서드의 이름과 반환 타입을 제거하고  ->를 { 앞에 붙임
 //    (int a, int b) -> {
 //        return a > b ? a : b;
 //    }
@@ -22,9 +21,32 @@ public class LambDa {
 //    a -> a * a
 //    (int a) -> a * a
 
+//    실제로 쓰려면 아래와 같이 람다식이라는 익명 '객체'라는 것을 이용 한다.
+//    new Object() {
+//        int max(int a, int b) {
+//            return a > b ? a : b;
+//        }
+//    };
 
     public static void main(String[] args) {
+//        기본형
+        AddFunction f1 = new AddFunction() {
+            @Override
+            public int max(int a, int b) {
+                return a > b ? a : b;
+            }
+        };
+//        다음과 같이 람다식으로 구현 할 수 있음
+        AddFunction f2 = (a,b) -> a > b ? a: b;
 
+        int value = f2.max(3,4);
     }
 
+}
+
+//함수형 인터페이스: 하나의 추상 메서드만 가지고 있는 인터페이스
+
+@FunctionalInterface
+interface AddFunction {
+    public abstract int max(int a, int b);
 }
