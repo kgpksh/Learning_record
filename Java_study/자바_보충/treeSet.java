@@ -1,8 +1,5 @@
 package Java_study.자바_보충;
 
-import com.sun.xml.internal.bind.v2.runtime.reflect.Lister;
-import sun.reflect.generics.tree.Tree;
-
 import java.util.*;
 
 public class treeSet {
@@ -55,7 +52,7 @@ public class treeSet {
 
 //        다음과 같이 비교기준 넣어줘야함
         TreeSet treeSet2=new TreeSet(new TestComp());
-        treeSet2.add(new Test());
+        treeSet2.add(new Weapons());
 
         TreeSet stringFinder= new TreeSet();
         stringFinder.add("abc");
